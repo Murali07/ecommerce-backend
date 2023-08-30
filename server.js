@@ -9,7 +9,7 @@ const server = http.createServer(app);
 const { Server } = require("socket.io");
 const io = new Server(server, {
     // cors: "http://localhost:3000",
-    cors: "http://idyllic-gaufre-afe0d9.netlify.app",
+    cors: "https://idyllic-gaufre-afe0d9.netlify.app",
     methods: ["GET", "POST", "PATCH", "DELETE"]
 })
 
